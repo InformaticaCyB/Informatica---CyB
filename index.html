@@ -6,11 +6,16 @@
     <title>Informática CyB</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
-        h1 { color: #2c3e50; }
+        h1 { color: #2c3e50; text-align: center; }
         .section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
         .section h2 { margin-top: 0; }
-        .contacto p, .section ul { margin: 0.5em 0; }
-        .enlaces a { display: inline-block; margin: 5px 10px 0 0; text-decoration: none; color: #fff; background: #3498db; padding: 8px 12px; border-radius: 5px; }
+        .section ul { margin: 0.5em 0; }
+        .galeria { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .galeria img { width: 180px; height: 120px; object-fit: cover; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+        .contacto p { margin: 0.5em 0; }
+        .enlaces a, .qr-btn { display: inline-block; margin: 5px 10px 0 0; text-decoration: none; color: #fff; background: #3498db; padding: 8px 12px; border-radius: 5px; }
+        .qr-container { margin-top: 15px; }
+        .qr-container img { width: 120px; height: 120px; margin-top: 5px; border: 1px solid #ddd; border-radius: 5px; }
     </style>
 </head>
 <body>
@@ -26,6 +31,11 @@
             <li>Repuestos originales y garantía</li>
         </ul>
         <p>🔧 Más de 10 años de experiencia en reparación de televisores.</p>
+        <div class="galeria">
+            <img src="fotos/televisores/tv1.jpg" alt="Televisor 1">
+            <img src="fotos/televisores/tv2.jpg" alt="Televisor 2">
+            <img src="fotos/televisores/tv3.jpg" alt="Televisor 3">
+        </div>
     </div>
 
     <div class="section">
@@ -38,6 +48,11 @@
             <li>Liberación y actualización de sistemas</li>
         </ul>
         <p>📱 8 años de experiencia en reparación de celulares.</p>
+        <div class="galeria">
+            <img src="fotos/celulares/cel1.jpg" alt="Celular 1">
+            <img src="fotos/celulares/cel2.jpg" alt="Celular 2">
+            <img src="fotos/celulares/cel3.jpg" alt="Celular 3">
+        </div>
     </div>
 
     <div class="section">
@@ -50,23 +65,31 @@
             <li>Reparación de hardware y mejoras de rendimiento</li>
         </ul>
         <p>💻 15 años de experiencia reparando computadoras.</p>
+        <div class="galeria">
+            <img src="fotos/computadoras/pc1.jpg" alt="PC 1">
+            <img src="fotos/computadoras/pc2.jpg" alt="PC 2">
+            <img src="fotos/computadoras/pc3.jpg" alt="PC 3">
+        </div>
     </div>
 
     <div class="section contacto">
         <h2>📍 Contactanos hoy mismo</h2>
         <p>📌 Dirección: Salta 726, Los Lagos, La Banda, Santiago del Estero, Argentina</p>
         <p>📱 WhatsApp: +54 385 4082300</p>
+        <p>📱 WhatsApp: +54 385 5014166</p>
         <p>🎵 TikTok: @Adriandiaz1445</p>
         <p>📘 Facebook / Instagram: Adrian Puma Diaz</p>
         <p>🛠️ Confianza, experiencia y compromiso con tu equipo</p>
         <p>¡Dejá tu equipo en manos de expertos!</p>
-    </div>
 
-    <div class="section enlaces">
-        <h2>📂 Ver Trabajos Realizados</h2>
-        <a href="https://github.com/TU_USUARIO/informatica-cyb/tree/televisores" target="_blank">📺 Trabajos de Televisores</a>
-        <a href="https://github.com/TU_USUARIO/informatica-cyb/tree/celulares" target="_blank">📱 Trabajos de Celulares</a>
-        <a href="https://github.com/TU_USUARIO/informatica-cyb/tree/computadoras" target="_blank">💻 Trabajos de Computadoras</a>
+        <div class="qr-container">
+            <h3>📲 Escaneá para chatear:</h3>
+            <a class="qr-btn" href="https://wa.me/543854082300" target="_blank">WhatsApp 3854082300</a>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/543854082300" alt="QR 3854082300">
+
+            <a class="qr-btn" href="https://wa.me/543855014166" target="_blank">WhatsApp 3855014166</a>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/543855014166" alt="QR 3855014166">
+        </div>
     </div>
 </body>
 </html>
