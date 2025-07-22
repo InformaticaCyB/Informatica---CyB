@@ -3,20 +3,108 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Informática CyB</title>
+    <title>Informática CyB – Reparación de TV, Celulares y PCs en La Banda</title>
+    <meta name="description" content="Servicio técnico especializado en reparación de televisores, celulares y computadoras en La Banda, Santiago del Estero.">
+    <meta name="keywords" content="reparación de TV, reparación de celulares, reparación de PC, La Banda, informática CyB">
+    <meta name="author" content="Informática CyB">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
-        h1 { color: #2c3e50; text-align: center; }
-        .section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-        .section h2 { margin-top: 0; }
-        .section ul { margin: 0.5em 0; }
-        .galeria { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
-        .galeria img { width: 180px; height: 120px; object-fit: cover; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
-        .contacto p { margin: 0.5em 0; }
-        .enlaces a, .qr-btn { display: inline-block; margin: 5px 10px 0 0; text-decoration: none; color: #fff; background: #3498db; padding: 8px 12px; border-radius: 5px; }
-        .qr-container { margin-top: 15px; }
-        .qr-container img { width: 120px; height: 120px; margin-top: 5px; border: 1px solid #ddd; border-radius: 5px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .section ul {
+            margin: 0.5em 0;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .galeria img {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .contacto p {
+            margin: 0.5em 0;
+        }
+        .enlaces a, .qr-btn {
+            display: inline-block;
+            margin: 5px 10px 0 0;
+            text-decoration: none;
+            color: #fff;
+            background: #3498db;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .qr-container {
+            margin-top: 15px;
+        }
+        .qr-container img {
+            width: 120px;
+            height: 120px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .galeria img {
+                width: 100%;
+                height: auto;
+            }
+            body {
+                padding: 10px;
+            }
+            .qr-container img {
+                width: 100px;
+                height: 100px;
+            }
+        }
     </style>
+
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .whatsapp-float:hover {
+            background-color: #1ebe5d;
+        }
+    </style>
+
 </head>
 <body>
     <h1>🔧 Reparación de TV, Celulares y Computadoras – Informática CyB</h1>
@@ -32,9 +120,9 @@
         </ul>
         <p>🔧 Más de 10 años de experiencia en reparación de televisores.</p>
         <div class="galeria">
-            <img src="fotos/televisores/tv1.jpg" alt="Televisor 1">
-            <img src="fotos/televisores/tv2.jpg" alt="Televisor 2">
-            <img src="fotos/televisores/tv3.jpg" alt="Televisor 3">
+            <img src="fotos/televisores/tv1.jpg" alt="Televisor 1" loading="lazy">
+            <img src="fotos/televisores/tv2.jpg" alt="Televisor 2" loading="lazy">
+            <img src="fotos/televisores/tv3.jpg" alt="Televisor 3" loading="lazy">
         </div>
     </div>
 
@@ -49,9 +137,9 @@
         </ul>
         <p>📱 8 años de experiencia en reparación de celulares.</p>
         <div class="galeria">
-            <img src="fotos/celulares/cel1.jpg" alt="Celular 1">
-            <img src="fotos/celulares/cel2.jpg" alt="Celular 2">
-            <img src="fotos/celulares/cel3.jpg" alt="Celular 3">
+            <img src="fotos/celulares/cel1.jpg" alt="Celular 1" loading="lazy">
+            <img src="fotos/celulares/cel2.jpg" alt="Celular 2" loading="lazy">
+            <img src="fotos/celulares/cel3.jpg" alt="Celular 3" loading="lazy">
         </div>
     </div>
 
@@ -66,9 +154,9 @@
         </ul>
         <p>💻 15 años de experiencia reparando computadoras.</p>
         <div class="galeria">
-            <img src="fotos/computadoras/pc1.jpg" alt="PC 1">
-            <img src="fotos/computadoras/pc2.jpg" alt="PC 2">
-            <img src="fotos/computadoras/pc3.jpg" alt="PC 3">
+            <img src="fotos/computadoras/pc1.jpg" alt="PC 1" loading="lazy">
+            <img src="fotos/computadoras/pc2.jpg" alt="PC 2" loading="lazy">
+            <img src="fotos/computadoras/pc3.jpg" alt="PC 3" loading="lazy">
         </div>
     </div>
 
@@ -91,6 +179,10 @@
             <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/543855014166" alt="QR 3855014166">
         </div>
     </div>
+
+<a href="https://wa.me/543854082300" class="whatsapp-float" target="_blank" title="Chatear por WhatsApp">
+    🟢
+</a>
+
 </body>
 </html>
-
