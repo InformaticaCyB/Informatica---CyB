@@ -1,82 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
   <title>Informática CyB</title>
   <style>
-    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
-    header { background-color: #0050a0; color: white; padding: 20px 10px; text-align: center; }
-    .container { max-width: 900px; margin: 20px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    h2 { color: #003060; }
-    ul { padding-left: 20px; }
-    a { color: #0050a0; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer { text-align: center; font-size: 14px; color: #666; margin: 30px 0 10px; }
-    .whatsapp-button {
-      display: inline-block;
-      padding: 12px 18px;
-      background-color: #25d366;
-      color: white;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .trabajos img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.1);
-    }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; padding: 20px; }
+    .container { max-width: 960px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    h1, h2 { color: #003060; }
+    .galeria img { max-width: 100%; margin-bottom: 10px; border-radius: 8px; }
+    video { width: 100%; margin-top: 20px; border-radius: 8px; }
+    .documentos a { display: block; margin: 5px 0; color: #0050a0; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Informática CyB</h1>
-    <p>Soluciones tecnológicas confiables y profesionales</p>
-  </header>
-
   <div class="container">
-    <h2>📸 Trabajos realizados</h2>
-    <div class="trabajos">
-      <img src="trabajo1.jpg" alt="Trabajo 1" />
-      <img src="trabajo2.jpg" alt="Trabajo 2" />
-      <img src="trabajo3.jpg" alt="Trabajo 3" />
-      <img src="trabajo4.jpg" alt="Trabajo 4" />
-      <img src="trabajo5.jpg" alt="Trabajo 5" />
-      <img src="trabajo6.jpg" alt="Trabajo 6" />
-      <img src="trabajo7.jpg" alt="Trabajo 7" />
-      <img src="trabajo8.jpg" alt="Trabajo 8" />
-      <img src="trabajo9.jpg" alt="Trabajo 9" />
-      <img src="trabajo10.jpg" alt="Trabajo 10" />
-      <img src="trabajo11.jpg" alt="Trabajo 11" />
-      <img src="trabajo12.jpg" alt="Trabajo 12" />
-      <img src="trabajo13.jpg" alt="Trabajo 13" />
-      <img src="trabajo14.jpg" alt="Trabajo 14" />
-      <img src="trabajo15.jpg" alt="Trabajo 15" />
-      <img src="trabajo16.jpg" alt="Trabajo 16" />
-      <img src="trabajo17.jpg" alt="Trabajo 17" />
-      <img src="trabajo18.jpg" alt="Trabajo 18" />
-      <img src="trabajo19.jpg" alt="Trabajo 19" />
-      <img src="trabajo20.jpg" alt="Trabajo 20" />
+    <h1>Informática CyB</h1>
+    <p>Soluciones confiables en reparación de TV, celulares y computadoras.</p>
+
+    <h2>📸 Galería de trabajos</h2>
+    <div class="galeria">
+      <img src="fotos/trabajo1.jpg" alt="Trabajo 1" />
+      <img src="fotos/trabajo2.jpg" alt="Trabajo 2" />
     </div>
 
-    <h2>📲 Contacto</h2>
-    <p><strong>WhatsApp:</strong> +54 385 4082300</p>
-    <p><a class="whatsapp-button" href="https://wa.me/543854082300?text=Hola!%20Quiero%20hacer%20una%20consulta%20a%20Inform%C3%A1tica%20CyB">Escribinos por WhatsApp</a></p>
-    <p><strong>Dirección:</strong> Salta 726, Los Lagos, La Banda, Santiago del Estero, Argentina</p>
+    <h2>🎬 Videos</h2>
+    <video controls>
+      <source src="videos/video1.mp4" type="video/mp4">
+      Tu navegador no soporta este video.
+    </video>
 
-    <h2>🌐 Redes sociales</h2>
-    <ul>
-      <li>TikTok: <a href="https://www.tiktok.com/@Adriandiaz1445" target="_blank">@Adriandiaz1445</a></li>
-      <li>Facebook: <a href="https://www.facebook.com/adrianpumadiaz" target="_blank">Adrian Puma Diaz</a></li>
-      <li>Instagram: <a href="https://www.instagram.com/adrianpumadiaz" target="_blank">Adrian Puma Diaz</a></li>
-    </ul>
+    <h2>📄 Documentos técnicos</h2>
+    <div class="documentos">
+      <a href="documentos/informe1.pdf" target="_blank">Informe técnico 1 (PDF)</a>
+      <a href="documentos/diagnostico2.pdf" target="_blank">Diagnóstico 2 (PDF)</a>
+    </div>
+
+    <h2>📞 Contacto</h2>
+    <p>WhatsApp: +54 385 4082300</p>
+    <p>Dirección: Salta 726, Los Lagos, La Banda, Santiago del Estero</p>
   </div>
-
-  <footer>
-    <p>Informática CyB - Todos los derechos reservados</p>
-  </footer>
 </body>
 </html>
